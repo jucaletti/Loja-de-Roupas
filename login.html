@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="free_logo_design-removebg-preview.png">
+
+    <style>  
+        body {background-color: rgb(248, 225, 227);}
+        h1 {font-family: 'Times New Roman', Times, serif; font-size: 50px; color: rgb(199, 105, 121); text-align: center;}
+        h3 {font-family: 'Times New Roman', serif; font-size: 20px; color: rgb(199, 105, 121); text-align: center;}
+        .grid{padding-top: 80px; padding-left: 40px; display:grid; 
+                grid-template-columns: 430px 880px; 
+                grid-template-rows: 400px 100px;   
+                justify-content: left;} /*Configurações do container grid com os vídeos tutorias*/
+            .item1 {grid-column-start: 1/2; grid-row: 1/2; padding-left: 30%;} 
+            .item2 {grid-column: 2/2; grid-row: 1/2; padding-left: 30%;} 
+            .item3 {grid-column-end: 1/2; grid-row: 2/2; padding-left: 100%;}
+            .item4 {grid-column-end: 2/2; grid-row: 2/2; padding-left: 40%; font-size: 20px;
+            color:grey; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+            .button{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: grey; text-align: center;}
+            text{border-radius: 5px ;}
+    </style>
+    <title>Faça seu login</title>
+</head>
+<body>
+    <div class="grid">
+    <div class="item1"><img src="foto da pag.png" alt="" height="540" width="360"></div>
+    <div class="item2"><h1>CALETTI CLOTHING</h1><h3>handcrafted clothe brand</h3></div>
+    <div class="item3"></div>
+    <div class="item4">
+    <form action="validar.php" method="POST">
+        <label for="email"> E-mail</label><br>
+        <input class=button type="email" id="email" name="email" required><br>
+
+        <label for="senha"> Senha</label><br>
+        <input class=button type="password" id="senha" name="senha" required>
+
+        <input class="button" type="submit" value="Entrar">
+    
+    </form></div>
+    </div>
+</body>
+</html>
