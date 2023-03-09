@@ -39,9 +39,9 @@ CREATE TABLE `roupas` (
 --
 
 INSERT INTO `roupas` (`id_roupas`, `nome_roupas`, `cor_roupas`, `tipo_roupas`) VALUES
-(1, 'vestido lilas', 'lilas', 'vestido'),
-(2, 'vestido preto paete', 'preto', 'vestido'),
-(3, 'vestidos rosa', 'rosa', 'vestido');
+(1, 'Vestido lilás', 'lilas', 'vestido'),
+(2, 'Vestido de paetê preto', 'preto', 'vestido'),
+(3, 'Vestido rosa', 'rosa', 'vestido');
 
 --
 -- Índices para tabelas despejadas
